@@ -136,7 +136,6 @@ text-align: left;
 }		
 		
 @-webkit-keyframes scale-in-center {
-  @-webkit-keyframes scale-in-center {
   0% {
     -webkit-transform: scale(0);
             transform: scale(0);
@@ -160,6 +159,7 @@ text-align: left;
     opacity: 1;
   }
 }
+
 				
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
