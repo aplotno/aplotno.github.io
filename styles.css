@@ -15,9 +15,8 @@
 }
 
 .body {
-font-family: sans-serif;
-background: linear-gradient(116deg, #ffffff, #ffffff, #ffffff, #0da0b0, #32bbca, #39cfdf, #ff3998, #900045, #ff007a);
-background-size: 1800% 1800%;
+background: linear-gradient(116deg, #ffffff, #ffffff, #0da0b0, #32bbca, #39cfdf, #ff3998, #900045, #ff007a);
+background-size: 1600% 1600%;
 
 -webkit-animation: backgroundAnimation 20s ease infinite;
 -moz-animation: backgroundAnimation 20s ease infinite;
