@@ -16,12 +16,12 @@
 
 .body {
 font-family: sans-serif;
-background: linear-gradient(236deg, #0abbce, #1f838e, #5de8f7, #3e6367);
-background-size: 800% 800%;
+background: linear-gradient(116deg, #ffffff, #ffffff, #ffffff, #0da0b0, #32bbca, #39cfdf, #ff3998, #900045, #ff007a);
+background-size: 1800% 1800%;
 
--webkit-animation: backgroundAnimation 7s ease infinite;
--moz-animation: backgroundAnimation 7s ease infinite;
-animation: backgroundAnimation 7s ease infinite;
+-webkit-animation: ASD 20s ease infinite;
+-moz-animation: ASD 20s ease infinite;
+animation: ASD 20s ease infinite;
 
 }
 
