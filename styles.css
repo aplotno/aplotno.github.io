@@ -123,15 +123,16 @@ text-align: left;
 		
 		
 .swing-in-left-fwd {
+ width: 20%;
+ height: 20%;
+ border: 10px;
+ border-color: #FFFFFF;
 	-webkit-animation: swing-in-left-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 3s both;
 	        animation: swing-in-left-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 3s both;
 }
 
 .foto {
- width: 20%;
- height: 20%;
- border: 10px;
- border-color: #FFFFFF;
+
 }		
 		
 @-webkit-keyframes swing-in-left-fwd {
