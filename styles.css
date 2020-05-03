@@ -128,7 +128,10 @@ text-align: left;
 }
 
 .foto {
-size: 10%;
+ width: 20%;
+ height: 20%;
+ border: 10px;
+ border-color: #FFFFFF;
 }		
 		
 @-webkit-keyframes swing-in-left-fwd {
