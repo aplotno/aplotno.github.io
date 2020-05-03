@@ -124,7 +124,7 @@ text-align: left;
 		
 .swirl-in-fwd{
  width: 18rem;
- height: 19rem;
+ height: 22rem;
  border: 10px #FFFFFF;
  margin-left: 30%;
 		-webkit-animation: swirl-in-fwd 1s ease-out 1.5s both;
