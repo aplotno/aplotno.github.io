@@ -26,13 +26,15 @@ animation: backgroundAnimation 7s ease infinite;
 }
 
 .button{
- text-align: center;
- padding: 3px;
- margin-left:24%;
- font-size: 2rem;
-color: #FFFFFF;
-background-color: #000000;
-border-radius: 2px;
+    border: dotted;
+    text-align: center;
+    padding: 13px;
+    margin-left: 20%;
+    font-size: 1.2rem;
+    color: #ffffffd1;
+    background-color: #ffffff1c;
+    border-radius: 14px;
+    border-width: thin;
 }
 
 @-webkit-keyframes text-pop-up-top {
