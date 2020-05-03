@@ -73,6 +73,7 @@ animation: backgroundAnimation 20s ease infinite;
 
 
 .paragraph{
+font-family: sans-serif;
 padding-left:10%;
 padding-top: 60%;
 font-size: 2rem;
