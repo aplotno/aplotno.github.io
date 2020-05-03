@@ -123,8 +123,8 @@ text-align: left;
 		
 		
 .swing-in-left-fwd {
- width: 15rem;
- height: 16rem;
+ width: 18rem;
+ height: 18rem;
  border: 10px #FFFFFF;
  margin-left: 20%;
 	-webkit-animation: swing-in-left-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 3s both;
