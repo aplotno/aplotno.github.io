@@ -88,9 +88,14 @@ font-size: 600%;
 text-align: left;
      color: #FFFFFF;
 	 font-family: Helvetica, sans-serif;
+<<<<<<< HEAD
 	 -webkit-animation: text-pop-up-top 0.5s cubic-bezier (0.250, 0.460, 0.450, 0.940) both;
 	        animation: text-pop-up-top 0.5s cubic-bezier (0.250, 0.460, 0.450, 0.940) both;
 
+=======
+	 -webkit-animation: text-pop-up-top 0.5s cubic-bezier 2s (0.250, 0.460, 0.450, 0.940) both;
+	        animation: text-pop-up-top 0.5s cubic-bezier 2s (0.250, 0.460, 0.450, 0.940) both;
+>>>>>>> parent of 9c322c7... titulo
 }
 
 /*  SECTIONS  */
