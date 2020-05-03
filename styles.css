@@ -32,6 +32,7 @@ animation: backgroundAnimation 7s ease infinite;
  font-size: 2rem;
 color: #FFFFFF;
 background-color: #000000;
+border-radius: 2px;
 }
 
 @-webkit-keyframes text-pop-up-top {
