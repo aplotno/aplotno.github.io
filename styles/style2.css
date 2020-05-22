@@ -70,3 +70,10 @@ text-align: center;
 .spacer{
 margin-bottom: 3em;
 }
+
+@media screen and (max-width: 650px) {
+  .signup{
+  padding: 0em;
+}
+}
+
