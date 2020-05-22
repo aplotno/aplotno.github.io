@@ -1,0 +1,72 @@
+#header-subsurface {background-image: url('/images/hero-subsurface.png');}
+
+h2.formtext {
+	text-align: center;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	margin-top: 1rem;
+}
+
+btn {
+
+
+}
+
+form {
+   text-align: center;
+}
+
+formorig {
+   text-align: center;
+}
+
+form.thirds button {
+  margin-left: 0.2em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding: 1em 2.5rem;
+  border-style: solid;
+  background: eaeaea;
+  border-color: black;
+  font-family: 'Gordita-Regular', Helvetica, Arial, Sans-Serif;
+  min-width: 210px;
+}
+form.thirds button:hover {
+  margin-left: 0.2em;
+  background: black;
+  font-family: 'Gordita-Regular', Helvetica, Arial, Sans-Serif;
+  color: white;
+}
+
+form.thirds input {
+  margin-left: auto;
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+  padding: 1em 2em;
+  font-family: 'Gordita-Regular', Helvetica, Arial, Sans-Serif;
+}
+
+p.formtext {
+ margin-top: 1em;
+ margin-bottom: 2.5em;
+ text-align: center;
+}
+
+p.smaller {
+text-align: center;
+ font-size: 0.75rem;
+}
+
+a.smaller {
+text-align: center;
+ font-size: 0.75rem;
+}
+
+.signup{
+  border: dashed;
+  padding: 1em;
+}
+
+.spacer{
+margin-bottom: 3em;
+}
