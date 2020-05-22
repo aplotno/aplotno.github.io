@@ -41,11 +41,14 @@ form.thirds button:hover {
 }
 
 form.thirds input {
-  margin-left: auto;
-  margin-bottom: 1em;
-  margin-top: 1.5em;
-  padding: 1em 2em;
-  font-family: 'Gordita-Regular', Helvetica, Arial, Sans-Serif;
+     margin-left: auto;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+    padding: 1em 2em;
+    font-family: 'Gordita-Regular', Helvetica, Arial, Sans-Serif;
+    box-shadow: 0px 0px 1px 0px #aaa;
+    border: none;
+    border: groove lightgray 2px;
 }
 
 p.formtext {
@@ -66,7 +69,7 @@ text-align: center;
 }
 
 .signup{
-  border: dashed;
+  border: dashed 2px;
   padding: 0em;
   background: linear-gradient(to left, #0199f103 0%, #10047114 100%);
 }
