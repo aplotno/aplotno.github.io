@@ -82,11 +82,11 @@ color: #FFFFFF;
 }
 
 .text-pop-up-top {
-padding-left:10%;
+padding-left:4%;
 padding-top: 5%;
-font-size: 600%;
+font-size: 500%;
 text-align: left;
-     color: #FFFFFF;
+	 border: #000000 thin;
 	 font-family: Helvetica, sans-serif;
 	-webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
 	        animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
@@ -115,10 +115,12 @@ text-align: left;
 
 /*  GRID OF TWO  */
 .span_2_of_2 {
+    background-color: #FFFFFF;
 	width: 100%;
 }
 .span_1_of_2 {
 	width: 49.2%;
+	background-color: #FFFFFF;
 		}
 		
 		
@@ -172,8 +174,9 @@ text-align: left;
 }
 
 @media only screen and (max-width: 480px) {
-	.span_2_of_2, .span_1_of_2 { width: 100%; }
-}
+	.span_1_of_2 { width: 100%; }
 
+    .span_2_of_2 {}
+}
 
 

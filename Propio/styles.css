@@ -1,0 +1,182 @@
+@-webkit-keyframes backgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes backgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes backgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.body {
+background: linear-gradient(116deg, #ffffff, #ffffff, #0da0b0, #32bbca, #39cfdf, #ff3998, #900045, #ff007a);
+background-size: 1600% 1600%;
+
+-webkit-animation: backgroundAnimation 20s ease infinite;
+-moz-animation: backgroundAnimation 20s ease infinite;
+animation: backgroundAnimation 20s ease infinite;
+
+}
+
+.button{
+    border: dotted;
+    text-align: center;
+    padding: 13px;
+    margin-left: 20%;
+    font-size: 1.2rem;
+    color: #ffffffd1;
+    background-color: #ffffff1c;
+    border-radius: 14px;
+    border-width: thin;
+}
+
+@-webkit-keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+@keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+
+
+.paragraph{
+font-family: sans-serif;
+padding-left:10%;
+padding-top: 60%;
+font-size: 2rem;
+text-align: left;
+color: #FFFFFF;
+}
+
+.text-pop-up-top {
+padding-left:4%;
+padding-top: 5%;
+font-size: 500%;
+text-align: left;
+	 border: #000000 thin;
+	 font-family: Helvetica, sans-serif;
+	-webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
+	        animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+    background-color: #FFFFFF;
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+	background-color: #FFFFFF;
+		}
+		
+		
+.swirl-in-fwd{
+ width: 18rem;
+ height: 22rem;
+ border: 10px #FFFFFF;
+ margin-left: 30%;
+		-webkit-animation: swirl-in-fwd 1s ease-out 1.5s both;
+	        animation: swirl-in-fwd 1s ease-out 1.5s both;
+}
+
+.foto {
+
+}		
+		
+@-webkit-keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-540deg) scale(0);
+            transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-540deg) scale(0);
+            transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+
+
+				
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_1_of_2 { width: 100%; }
+
+    .span_2_of_2 {}
+}
+
+
