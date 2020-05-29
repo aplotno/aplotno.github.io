@@ -165,6 +165,15 @@ margin-top: 3em
     padding-top: 1px;
 }
 
+#product2 h2 {
+    background: linear-gradient(to right, #0199f1 0%, #a0d00f 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    padding: 10px 0px 50px 0;
+}
+
 @media only screen and (min-width: 700px) {
   .signup{
   padding: 1em;
