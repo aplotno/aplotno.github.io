@@ -21,7 +21,7 @@ canvas{
 .intro {
     position: relative;
 	margin: 0 auto;
-	width: 14em;
+	width: 13em;
     z-index: 10;
     animation: intro 6s ease-out 1s;
     color: rgb(75, 213, 238);
@@ -84,7 +84,7 @@ canvas{
 }
 
 p {
-  color: #FFFF82;
+  color: #ffeb00;
 }
 
 /* Set the font, lean the board, position it */
