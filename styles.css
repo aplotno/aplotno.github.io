@@ -29,7 +29,7 @@ canvas{
     font-size: 300%;
     opacity: 0;
 	margin-top: -9em;
-	text-shadow:  text-shadow: 0px 0px 4px #52dfff;
+	text-shadow: 0px 0px 4px #52dfff;
 }
 
 @keyframes intro {
