@@ -7,14 +7,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="styles.css" />
 		<!--<link rel="script" href="scripts.js" />-->
-		
-	</head>
+		</head>
 	<body
-  style="position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; overflow: hidden; margin: 0; padding: 0;"
->
-	<iframe src="opening.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe> 
-	<audio autoplay>
-  <source src="opening.mp3" type="audio/mpeg">
+  style="position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; overflow: hidden; margin: 0; padding: 0;">
+	<audio id="audio" allow="autoplay" [muted]= "true">
+	 <source src="opening.mp3" type="audio/mpeg">	 
 </audio>
 
   <canvas
@@ -89,7 +86,7 @@
       let elapsed = time - prevTime;
       prevTime = time;
 
-      moveStars(elapsed * 0.1);
+      moveStars(elapsed * 0.05);
 
       clear();
 
@@ -118,11 +115,28 @@
 
     requestAnimationFrame(init);
   </script>
-<section class="intro">
+
+
+<a href="#" id="unmuteButton" class="float">
+  <script>
+  unmuteButton.addEventListener('click', function() {
+    document.getElementById("intro").style.animationPlayState = "running";
+	document.getElementById("logo").style.animationPlayState = "running";
+    document.getElementById("content").style.animationPlayState = "running";
+	document.getElementById("intro").style.webkitAnimationPlayState = "running";
+	document.getElementById("logo").style.animationPlayState = "running";
+    document.getElementById("content").style.animationPlayState = "running";
+	audio.play();
+    audio.muted = false;
+  });
+</script>
+<i class="fa fa-plus my-float">+</i>
+</a>
+<section id="intro" class="intro">
   A long time ago, in a galaxy<br> far, far away...
 </section>
 
-<section class="logo">
+<section id="logo" class="logo">
       <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   width="693.615px" height="419.375px" viewBox="0 0 693.615 419.375" enable-background="new 0 0 693.615 419.375"
   xml:space="preserve">
