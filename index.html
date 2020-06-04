@@ -6,6 +6,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 		<!--<link rel="script" href="scripts.js" />-->
 		</head>
 	<body
@@ -117,7 +119,7 @@
   </script>
 
 
-<a href="#" id="unmuteButton" class="float">
+<a href="#" id="unmuteButton" class="float"><i class="fa fa-volume-off icon2 float2"></i><h3 class="p2"">sin sonido</br>without sound</h3>
   <script>
   unmuteButton.addEventListener('click', function() {
     document.getElementById("intro").style.animationPlayState = "running";
@@ -125,13 +127,40 @@
     document.getElementById("content").style.animationPlayState = "running";
 	document.getElementById("intro").style.webkitAnimationPlayState = "running";
 	document.getElementById("logo").style.animationPlayState = "running";
+    document.getElementById("content").style.webkitAnimationPlayState = "running";
+	document.getElementById("unmuteButton").style.animationPlayState = "running";
+	document.getElementById("unmuteButton").style.webkitAnimationPlayState = "running";
+	document.getElementById("unmuteButton2").style.animationPlayState = "running";
+	document.getElementById("unmuteButton2").style.webkitAnimationPlayState = "running";
+	audio.play();
+    audio.muted = true;
+  });
+</script>
+<span class="fa fa-volume-off icon2"></span>
+<i class="float2"><i class="fa fa-play icon my-float2"></i></i>
+</a>
+
+<a href="#" id="unmuteButton2" class="float3"><h3 class="p2"">con sonido</br>with sound</h3> <!-- falta la funcionalidad-->
+  <script>
+  unmuteButton2.addEventListener('click', function() {
+    document.getElementById("intro").style.animationPlayState = "running";
+	document.getElementById("logo").style.animationPlayState = "running";
     document.getElementById("content").style.animationPlayState = "running";
+	document.getElementById("intro").style.webkitAnimationPlayState = "running";
+	document.getElementById("logo").style.animationPlayState = "running";
+    document.getElementById("content").style.webkitAnimationPlayState = "running";
+	document.getElementById("unmuteButton2").style.animationPlayState = "running";
+	document.getElementById("unmuteButton2").style.webkitAnimationPlayState = "running";
+	document.getElementById("unmuteButton").style.animationPlayState = "running";
+	document.getElementById("unmuteButton").style.webkitAnimationPlayState = "running";
 	audio.play();
     audio.muted = false;
   });
 </script>
-<i class="fa fa-plus my-float">+</i>
+<span class="fa fa-volume-up icon2"></span>
+<i class="float4"><i class="fa icon fa-play my-float2"></i></i>
 </a>
+
 <section id="intro" class="intro">
   A long time ago, in a galaxy<br> far, far away...
 </section>
