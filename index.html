@@ -5,7 +5,9 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="viewport" content="height=device-height, initial-scale=1.0" />
 		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="styles2.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 		<!--<link rel="script" href="scripts.js" />-->
@@ -119,7 +121,7 @@
   </script>
 
 
-<a href="#" id="unmuteButton" class="float"><i class="fa fa-volume-off icon2 float2"></i><h3 class="p2"">sin sonido</br>without sound</h3>
+<a href="#" id="unmuteButton" class="float"><h3 class="p2"">sin sonido</br>without sound</h3>
   <script>
   unmuteButton.addEventListener('click', function() {
     document.getElementById("intro").style.animationPlayState = "running";
@@ -132,6 +134,18 @@
 	document.getElementById("unmuteButton").style.webkitAnimationPlayState = "running";
 	document.getElementById("unmuteButton2").style.animationPlayState = "running";
 	document.getElementById("unmuteButton2").style.webkitAnimationPlayState = "running";
+	document.getElementById("whitebox").style.animationPlayState = "running";
+	document.getElementById("whitebox").style.webkitAnimationPlayState = "running";
+	setTimeout(function(){
+      document.getElementById('unmuteButton').style.display ='none';
+      document.getElementById('unmuteButton2').style.display ='none';	  
+    }
+    ,2000);
+	setTimeout(function(){
+      document.getElementById('logo').style.display ='none';
+document.getElementById('intro').style.display ='none';	  
+    }
+    ,25000);
 	audio.play();
     audio.muted = true;
   });
@@ -153,6 +167,18 @@
 	document.getElementById("unmuteButton2").style.webkitAnimationPlayState = "running";
 	document.getElementById("unmuteButton").style.animationPlayState = "running";
 	document.getElementById("unmuteButton").style.webkitAnimationPlayState = "running";
+	document.getElementById("whitebox").style.animationPlayState = "running";
+	document.getElementById("whitebox").style.webkitAnimationPlayState = "running";
+	setTimeout(function(){
+      document.getElementById('unmuteButton').style.display ='none';
+      document.getElementById('unmuteButton2').style.display ='none';	  
+    }
+    ,2000);
+	setTimeout(function(){
+      document.getElementById('logo').style.display ='none';	
+document.getElementById('intro').style.display ='none';	  	  
+    }
+    ,25000);
 	audio.play();
     audio.muted = false;
   });
@@ -263,8 +289,36 @@
     <p id="subtitle">LA VENGANZA DEL CV</p>
     <br>
     <!-- And make it cheesy ! -->
-    <p>La galaxia se encuentra revuelta y un diseñador continua su búsqueda de interfaces y frontends para ejercer su profesión y adentrarse cada vez más en el mundo de la UX y UI</p>        
+    <p>La galaxia se encuentra revuelta y Alejandro Plotno, un diseñador, continúa su búsqueda de interfaces y frontends para ejercer su profesión y adentrarse cada vez más en el mundo de la UX y UI
+	</br></br> Utilizando el paquete Adobe, Axure, Javascript, CSS3 y HTML5 intentará producir las interfaces más atrayentes para lograr el mayor engagement posible con el usuario.
+	</br></br>User stories, personas, mockups e interviews son los métodos con los cuales intentará cumplir su misión.
+	</p>        
   </div>  
+</div>
+
+<div>
+<div class="grid-container fade-in">
+  <div class="whitebox fade-in" id ="whitebox">
+     
+      <div class="grid-container2">
+			<div class="center"><span class="h2">¿Un poco más de seriedad? </span></div>
+			
+			
+			<div class="center2"> <div><Button id="bnoton" type ="button"onclick="javascript:location.href='CVAlejandroPlotno.pdf'" download="CV"  class="botoncv"><p class="p3">¡Descargar mi CV!</p>
+			<span class="fa fa-cloud-download icon3"></span>
+			
+			</Button>
+			</div><div>
+			<button id="cvboton" type="button" onclick="javascript:location.href='portfolio.rar'" download="portfolio" class="botoncv2"><p class="p3">¡Descargar mi portfolio!</p>
+			<span class="fa fa-cloud-download icon3"></span>
+			</button></div></div>
+  </div>
+  </div>
+  <div class="one"></div>
+  <div class="two"></div>
+  <div class="six"></div>
+  <div class="eight"></span></div>
+</div>
 </div>
 
 

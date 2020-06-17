@@ -79,6 +79,51 @@ text-decoration: none;
     margin-bottom: 80px;
 }
 
+.botoncv{
+    position: absolute;
+    width: 46%;
+    /* height: 60px; */
+    /* bottom: 70px; */
+    /* right: 40px; */
+    /* background-color: #ffc800; */
+    color: #FFF;
+    border-radius: 50px;
+    text-align: left;
+    z-index: 1015;
+    opacity: 1;
+    animation: float 1s ease-out forwards;
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    /* border: chartreuse; */
+    border-style: dashed;
+    border-color: black;
+	margin-left: -5%;
+	border-width: 0.1em;
+}
+
+.botoncv2{
+    position: absolute;
+    width: 46%;
+    /* height: 60px; */
+    /* bottom: 70px; */
+    /* right: 40px; */
+    /* background-color: #ffc800; */
+    color: #FFF;
+    border-radius: 50px;
+    text-align: left;
+    z-index: 1015;
+    opacity: 1;
+    animation: float 1s ease-out forwards;
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    /* border: chartreuse; */
+    border-style: dashed;
+    border-color: black;
+	margin-left: -5%;
+	border-width: 0.1em;
+	margin-top: 8em;
+}
+
 .my-float{
 	margin-top:22px;
 }
@@ -110,6 +155,17 @@ canvas{
     opacity: 0.4;
     text-align: justify;
 	}
+	
+.icon3 {
+    color: black;
+    opacity: 0.2;
+    display: block !important;
+    margin-bottom: 5%;
+    margin-top: -4%;
+    margin-left: 6%;
+    font-size: 1.5em !important;
+}	
+	
 
 .p2 {
         color: #000;
@@ -122,6 +178,35 @@ canvas{
     border: none;
     /* text-decoration-color: black; */
     margin-left: 3.8em;
+    line-height: 1em;
+    text-align: left;
+}
+.p3 {
+     color: #000;
+    font-weight: 00;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    font-family: 'Abril Fatface', cursive;
+    text-decoration: none;
+    border: none;
+    /* text-decoration-color: black; */
+    margin-left: 12.8em;
+    /* line-height: 1em; */
+    text-align: left;
+    margin-top: 4%;
+}
+.h2 {
+       color: #fff
+	   ;
+    font-weight: 00;
+    font-size: 3em;
+    margin-bottom: 0;
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 5%;
+    text-decoration: none;
+    border: none;
+    /* text-decoration-color: black; */
+    /* margin-left: 3.8em; */
     line-height: 1em;
     text-align: left;
 }
@@ -270,8 +355,32 @@ p {
 @media (min-width:701px) and (max-width:1200px){
 .intro{margin-top: -14em;
 }
+
+.botoncv{
+    position: absolute;
+    width: 60%;
+    /* height: 60px; */
+    /* bottom: 70px; */
+    /* right: 40px; */
+    /* background-color: #ffc800; */
+	margin-left: -2%;
+	background-color: #fff;
+    
 }
-@media (max-width:700px){
+
+.botoncv2{
+    position: absolute;
+    width: 60%;
+    /* height: 60px; */
+    /* bottom: 70px; */
+    /* right: 40px; */
+    /* background-color: #ffc800; */
+	margin-left: -2%;
+	background-color: #fff;
+    
+}
+}
+@media screen and (max-width:700px){
 html,
 body {
   margin: 0;
@@ -302,6 +411,43 @@ font-size: 1.3em;
 #board{
 font-size: 140%;
 }
+
+.p3 {
+   font-size: 0.65em;
+   margin-left: 4.8em;
+   }
+   
+ .botoncv{
+    position: absolute;
+    width: 60%;
+    /* height: 60px; */
+    /* bottom: 70px; */
+    /* right: 40px; */
+    /* background-color: #ffc800; */
+	margin-left: -2%;
+    
+}
+.botoncv2{
+    position: absolute;
+    width: 60%;
+    /* height: 60px; */
+    /* bottom: 70px; */
+    /* right: 40px; */
+    /* background-color: #ffc800; */
+	margin-top: 5em;
+	margin-left: -2%;
+    
+}
+
+
+.icon3 {
+    color: black;
+    opacity: 0.2;
+    margin-left: 9%;
+    margin-bottom: 4%;
+    margin-top: -9%;
+    display: block !important;
+}   
 
 
 }
