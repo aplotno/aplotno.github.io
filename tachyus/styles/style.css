@@ -117,7 +117,7 @@ p + p {padding-top: 15px;}
 .bio p {font-size: 0.875rem;}
 .content-contact h2 {font-size: 1.75rem; margin-top: 90px;}
 .content-contact form {font-family: 'Gordita-Regular', Helvetica, Arial, Sans-Serif; font-weight: normal; font-size: 1rem; margin-top: 60px;}
-.content-contact input {padding: 5px 0 10px 0; font-family: 'Gordita-Regular', Helvetica, Arial, Sans-Serif; font-weight: normal; font-size: 1rem; min-width: 200px; width: 100%; margin-top: 10px; outline: none; border: none; border-bottom: 1px #ddd solid;}
+.content-contact input {padding: 5px 0 10px 0;font-family: 'Gordita-Regular', Helvetica, Arial, Sans-Serif;font-weight: normal;font-size: 1rem;min-width: 200px;width: 100%;margin-top: 10px;outline: none;border: none;border-bottom: 1px #ddd solid;}
 
 .leadership-thumbnail, .advisor-thumbnail {margin-top: 50px;}
 .leadership-thumbnail .col-12, .advisor-thumbnail .col-12 {font-size: 0;}

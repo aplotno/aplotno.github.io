@@ -19,8 +19,12 @@ btn {
 }
 
 form {
-   text-align: center;
+  
 }
+
+.radiobutton {/* vertical-align: super; */width: auto !important;/* padding: 2px !important; */margin: 17px;margin-right: -5em;margin-left: -5em;}
+
+
 
 formorig {
    text-align: center;
@@ -144,7 +148,8 @@ text-align: center;
 
 .content-contact input{
  margin-top: 0px !important;
- padding: 0px !important;
+ /* padding: 8px !important; */
+ /* padding-bottom: 0 !important; */
 }
 
 .freebirdFormviewerViewNavigationButtonsAndProgress {
@@ -176,6 +181,9 @@ margin-top: 3em
     text-fill-color: transparent;
     padding: 10px 0px 50px 0;
 }
+
+
+.otherresponse {width: auto !important;padding: 0 !important;margin-left: 2em;}
 
 @media only screen and (min-width: 700px) {
   .signup{
