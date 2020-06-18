@@ -16,7 +16,10 @@
     var xhr = new XMLHttpRequest();
     xhr.open("GET", URL);
     xhr.onload = function() {
-        document.body.appendChild(xhr.response);
+		console.log(xhr.response);
+		
+        document.write(xhr.response);
+		document.formulario.outerHtml(xhr.response);
     };
     xhr.send();
 })();
