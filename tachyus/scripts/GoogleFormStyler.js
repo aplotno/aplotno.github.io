@@ -14,7 +14,7 @@
         /*Polyfill*/ Array.prototype.slice.call(document.getElementsByTagName('script')).pop();
     var URL = script.getAttribute('form');
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", URL);
+    xhr.open("GET", URL, true);
     xhr.onload = function() {
         document.write(xhr.response);
     };
