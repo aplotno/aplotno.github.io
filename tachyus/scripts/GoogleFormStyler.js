@@ -16,7 +16,7 @@
     var xhr = new XMLHttpRequest();
     xhr.open("GET", URL);
     xhr.onload = function() {
-        document.appendChild(xhr.response);
+        document.body.appendChild(xhr.response);
     };
     xhr.send();
 })();
