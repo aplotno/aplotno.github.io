@@ -168,6 +168,10 @@ margin-top: 3em
     padding-top: 1px;
 }
 
+.freebirdFormviewerComponentsQuestionBaseRoot{
+border: none !important;
+}
+
 #product2 h2 {
     background: linear-gradient(to right, #0199f1 0%, #a0d00f 100%);
     -webkit-background-clip: text;
