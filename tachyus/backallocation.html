@@ -174,29 +174,7 @@
                    			<div class="col-2 hidden-sm"></div>
 				</div>
 			</div>
-			<script>
-        // get all iframes that were parsed before this tag
-        var iframes = document.getElementsByTagName("iframe");
-
-        for (let i = 0; i < iframes.length; i++) {
-            var url = iframes[i].getAttribute("src");
-            if (url.startsWith("https://docs.google.com/document/d/")) {
-                // create div and replace iframe
-                let d = document.createElement('div');
-                d.classList.add("embedded-doc"); // optional
-                iframes[i].parentElement.replaceChild(d, iframes[i]);
-
-                // CORS request
-                var xhr = new XMLHttpRequest();
-                xhr.open('GET', url, true);
-                xhr.onload = function() {
-                    // display response
-                    d.innerHTML = xhr.responseText;
-                };
-                xhr.send();
-            }
-        }
-    </script>
+			
 		</section>
 		<section class="prev-next">
 			<div class="container">
@@ -275,5 +253,29 @@ s.parentNode.insertBefore(b, s);})();
 <noscript>
 <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2265241&fmt=gif" />
 </noscript>
+
+<script>
+        // get all iframes that were parsed before this tag
+        var iframes = document.getElementsByTagName("iframe");
+
+        for (let i = 0; i < iframes.length; i++) {
+            var url = iframes[i].getAttribute("src");
+            if (url.startsWith("https://docs.google.com/document/d/")) {
+                // create div and replace iframe
+                let d = document.createElement('div');
+                d.classList.add("embedded-doc"); // optional
+                iframes[i].parentElement.replaceChild(d, iframes[i]);
+
+                // CORS request
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', url, true);
+                xhr.onload = function() {
+                    // display response
+                    d.innerHTML = xhr.responseText;
+                };
+                xhr.send();
+            }
+        }
+    </script>
 	</body>
 </html>
