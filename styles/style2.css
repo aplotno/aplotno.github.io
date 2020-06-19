@@ -185,6 +185,14 @@ body {
     margin: 0;
 }
 
+.freebirdFormviewerViewFormCard {
+    background-color: #fff;
+    margin-bottom: 48px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.0);
+    padding-bottom: 6px;
+    word-wrap: break-word;
+}
+
 @media only screen and (min-width: 700px) {
   .signup{
   padding: 1em;
