@@ -19,10 +19,8 @@ btn {
 }
 
 form {
-  
+   
 }
-
-.radiobutton {/* vertical-align: super; */}
 
 formorig {
    text-align: center;
@@ -177,18 +175,6 @@ margin-top: 3em
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     padding: 10px 0px 50px 0;
-}
-
-.freebirdFormviewerViewHeaderHeader {
-    margin-top: 12px;
-    background-color: #fff;
-    border: 1px solid #dadce0;
-    border-radius: 8px;
-    margin-bottom: 12px;
-    padding: 24px;
-    padding-top: 22px;
-    position: relative;
-    display: none !important;
 }
 
 @media only screen and (min-width: 700px) {
