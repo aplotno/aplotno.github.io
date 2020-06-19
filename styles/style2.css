@@ -172,6 +172,14 @@ margin-top: 3em
 border: none !important;
 }
 
+.freebirdCustomFont {
+font-family: 'Google Sans',Roboto,Arial,sans-serif;
+}
+
+.freebirdFormviewerComponentsQuestionBaseTitle {
+    font-weight: 600 !important;
+    }
+
 #product2 h2 {
     background: linear-gradient(to right, #0199f1 0%, #a0d00f 100%);
     -webkit-background-clip: text;
