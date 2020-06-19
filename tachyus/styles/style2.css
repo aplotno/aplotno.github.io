@@ -22,9 +22,7 @@ form {
   
 }
 
-.radiobutton {/* vertical-align: super; */width: auto !important;/* padding: 2px !important; */margin: 17px;margin-right: -5em;margin-left: -5em;}
-
-
+.radiobutton {/* vertical-align: super; */}
 
 formorig {
    text-align: center;
@@ -148,8 +146,7 @@ text-align: center;
 
 .content-contact input{
  margin-top: 0px !important;
- /* padding: 8px !important; */
- /* padding-bottom: 0 !important; */
+ padding: 0px !important;
 }
 
 .freebirdFormviewerViewNavigationButtonsAndProgress {
@@ -182,8 +179,11 @@ margin-top: 3em
     padding: 10px 0px 50px 0;
 }
 
-
-.otherresponse {width: auto !important;padding: 0 !important;margin-left: 2em;}
+body {
+    background-color: #fff !important;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin: 0;
+}
 
 @media only screen and (min-width: 700px) {
   .signup{
