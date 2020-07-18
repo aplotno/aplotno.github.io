@@ -4,6 +4,9 @@ background-image: url('/images/hero-subsurface.png');
 #header-pdca {
 background-image: url('/images/hero-pdca.png');
 }
+#header-waterflood{
+background-image: url('/images/hero-waterflood.png');
+}
 
 h2.formtext {
 	text-align: center;
@@ -171,6 +174,14 @@ margin-top: 3em
 .freebirdFormviewerComponentsQuestionBaseRoot{
 border: none !important;
 }
+
+.freebirdCustomFont {
+font-family: 'Google Sans',Roboto,Arial,sans-serif;
+}
+
+.freebirdFormviewerComponentsQuestionBaseTitle {
+    font-weight: 600 !important;
+    }
 
 #product2 h2 {
     background: linear-gradient(to right, #0199f1 0%, #a0d00f 100%);
