@@ -1,0 +1,122 @@
+body {
+  background-color: #EEE; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+  color: #444; }
+
+a {
+  font-size: 0.60rem;
+  font-family: 'Open Sans', sans-serif; }
+
+h1 {
+  font-size: 4rem; }
+
+h4 {
+  font-size: 1.5rem; }
+
+h5 {
+  font-size: 1rem; }
+
+a:hover {
+  text-decoration: none; }
+
+p {
+  font-size: 0.75rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #444; }
+
+.text-circle {
+  font-size: 0.5em; }
+
+.btn-primary:hover {
+  background-color: #06aed3;
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(82, 82, 82, 0.56);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(82, 82, 82, 0.56);
+  box-shadow: 0px 0px 0px 0px rgba(82, 82, 82, 0.56); }
+
+.btn-primary {
+  background-color: #06aed3;
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(82, 82, 82, 0.26);
+  -moz-box-shadow: 0px 1px 1px 1px rgba(82, 82, 82, 0.26);
+  box-shadow: 0px 1px 1px 1px rgba(82, 82, 82, 0.26); }
+
+.card-height {
+  height: auto;
+  min-height: 14em; }
+
+.card-style {
+  border: none;
+  background-color: white !important; }
+
+.manteca-bg {
+  background-image: url("manteca.png");
+  background-repeat: no-repeat; }
+
+.leche-bg {
+  background-image: url("leche.png");
+  background-repeat: no-repeat; }
+
+.yogur-bg {
+  background-image: url("yogur.png");
+  background-repeat: no-repeat; }
+
+.crema-bg {
+  background-image: url("crema.png");
+  background-repeat: no-repeat; }
+
+.ddl-bg {
+  background-image: url("ddl.png");
+  background-repeat: no-repeat; }
+
+.flan-bg {
+  background-image: url("flan.png");
+  background-repeat: no-repeat; }
+
+.gelatina-bg {
+  background-image: url("gelatina.png");
+  background-repeat: no-repeat; }
+
+.cremoso-bg {
+  background-image: url("cremoso.png");
+  background-repeat: no-repeat; }
+
+.card-shadow {
+  -webkit-box-shadow: 0px 1px 3px 1px rgba(82, 82, 82, 0.56);
+  -moz-box-shadow: 0px 1px 3px 1px rgba(82, 82, 82, 0.56);
+  box-shadow: 0px 1px 3px 1px rgba(82, 82, 82, 0.56); }
+
+.modify-card {
+  background: none;
+  border: none; }
+
+@media all and (max-width: 990px) {
+  .manteca-bg {
+    background-image: url("manteca-md.png"); }
+
+  .leche-bg {
+    background-image: url("leche-md.png"); }
+
+  .yogur-bg {
+    background-image: url("yogur-md.png"); }
+
+  .crema-bg {
+    background-image: url("crema-md.png"); }
+
+  .flan-bg {
+    background-image: url("flan-md.png"); }
+
+  .ddl-bg {
+    background-image: url("ddl-md.png"); }
+
+  .gelatina-bg {
+    background-image: url("gelatina-md.png"); }
+
+  .cremoso-bg {
+    background-image: url("cremoso-md.png"); } }
+@media all and (min-width: 1100px) {
+  .text-circle {
+    font-size: 0.55rem; } }
+
+/*# sourceMappingURL=styles.css.map */

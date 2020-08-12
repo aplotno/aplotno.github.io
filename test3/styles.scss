@@ -1,0 +1,174 @@
+$bg-color: #EEE;
+$bg-card: white;
+$btn-color: #06aed3;
+$text-color: #444;
+
+
+$manteca: 'manteca.png';
+$manteca-md: 'manteca-md.png';
+$leche: 'leche.png';
+$leche-md: 'leche-md.png';
+$yogur: 'yogur.png';
+$yogur-md: 'yogur-md.png';
+$crema: 'crema.png';
+$crema-md: 'crema-md.png';
+
+$ddl: 'ddl.png';
+$ddl-md: 'ddl-md.png';
+$cremoso: 'cremoso.png';
+$cremoso-md: 'cremoso-md.png';
+$flan: 'flan.png';
+$flan-md: 'flan-md.png';
+$gelatina: 'gelatina.png';
+$gelatina-md: 'gelatina-md.png';
+
+body{
+    background-color: $bg-color;
+
+}
+
+h1,h2,h3,h4,h5 {
+
+    font-family: 'Poppins', sans-serif;
+    color: $text-color;
+
+}
+
+a{
+    font-size: 0.60rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+        font-size: 4rem;
+        
+}
+h4{
+    font-size: 1.5rem;
+    
+}
+h5{
+    font-size: 1rem;
+    
+}
+
+a:hover{
+    text-decoration: none;
+
+}
+
+p {
+    font-size: 0.75rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: $text-color;
+}
+
+.text-circle {
+      font-size: 0.5em
+}
+
+.btn-primary:hover {
+    background-color: $btn-color;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(82,82,82,0.56);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(82,82,82,0.56);
+    box-shadow: 0px 0px 0px 0px rgba(82,82,82,0.56);
+}
+
+.btn-primary{
+    background-color: $btn-color;
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(82,82,82,0.26);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(82,82,82,0.26);
+    box-shadow: 0px 1px 1px 1px rgba(82,82,82,0.26);
+
+}
+
+
+.card-height {
+    height: auto;
+    min-height: 14em;
+}
+
+.card-style{
+        border: none;
+        background-color:$bg-card !important;
+}
+
+
+.manteca-bg{
+    background-image: url($manteca);
+    background-repeat: no-repeat;
+}
+.leche-bg{
+    background-image: url($leche);
+    background-repeat: no-repeat;
+}
+.yogur-bg{
+    background-image: url($yogur);
+    background-repeat: no-repeat;
+}
+.crema-bg{
+    background-image: url($crema);
+    background-repeat: no-repeat;
+}
+.ddl-bg{
+    background-image: url($ddl);
+    background-repeat: no-repeat;
+}
+.flan-bg{
+    background-image: url($flan);
+    background-repeat: no-repeat;
+}
+.gelatina-bg{
+    background-image: url($gelatina);
+    background-repeat: no-repeat;
+}
+.cremoso-bg{
+    background-image: url($cremoso);
+    background-repeat: no-repeat;
+}
+
+
+.card-shadow{
+    -webkit-box-shadow: 0px 1px 3px 1px rgba(82,82,82,0.56);
+    -moz-box-shadow: 0px 1px 3px 1px rgba(82,82,82,0.56);
+    box-shadow: 0px 1px 3px 1px rgba(82,82,82,0.56);
+}
+
+.modify-card{
+    background: none;
+    border: none;
+}
+
+@media all and (max-width:990px){
+    .manteca-bg{
+        background-image: url($manteca-md);
+    }
+    .leche-bg{
+        background-image: url($leche-md);
+    }
+    .yogur-bg{
+        background-image: url($yogur-md);
+    }
+    .crema-bg{
+        background-image: url($crema-md);
+    }
+    .flan-bg{
+        background-image: url($flan-md);
+    }
+    .ddl-bg{
+        background-image: url($ddl-md);
+    }
+    .gelatina-bg{
+        background-image: url($gelatina-md);
+    }
+    .cremoso-bg{
+        background-image: url($cremoso-md);
+    }
+}
+
+@media all and (min-width: 1100px){
+    .text-circle {
+        font-size: 0.55rem
+  }
+}
