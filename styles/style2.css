@@ -7,6 +7,9 @@ background-image: url('/images/hero-pdca.png');
 #header-waterflood {
 background-image: url('/images/hero-waterflood.png');
 }
+#header-bootcamp {
+background-image: url('../images/hero-bootcamp.png');
+}
 
 h2.formtext {
 	text-align: center;
@@ -190,6 +193,23 @@ font-family: 'Google Sans',Roboto,Arial,sans-serif;
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     padding: 10px 0px 50px 0;
+}
+
+.content-product{
+    margin-top: 75px !important;
+    margin-bottom: 0px;;
+}
+
+#cards {
+    align-content: center;
+    align-items: center;
+    float: none;
+    
+}
+
+#test {
+    align-self: flex-end;
+    top: 10%;
 }
 
 @media only screen and (min-width: 700px) {
