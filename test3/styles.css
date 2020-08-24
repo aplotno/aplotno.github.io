@@ -31,16 +31,17 @@ p {
   font-size: 0.5em; }
 
 .btn-primary:hover {
-  background-color: #06aed3;
-  -webkit-box-shadow: 0px 0px 0px 0px rgba(82, 82, 82, 0.56);
-  -moz-box-shadow: 0px 0px 0px 0px rgba(82, 82, 82, 0.56);
-  box-shadow: 0px 0px 0px 0px rgba(82, 82, 82, 0.56); }
+ background: linear-gradient(180deg, #EEEEEE, #FFFFFF);
+box-shadow: 1px 1px 1px #E8E8E8, -1px -1px 1px #EEE;
+text-shadow: 1px 0px 3px black;}
 
 .btn-primary {
-  background-color: #06aed3;
-  -webkit-box-shadow: 0px 1px 1px 1px rgba(82, 82, 82, 0.26);
-  -moz-box-shadow: 0px 1px 1px 1px rgba(82, 82, 82, 0.26);
-  box-shadow: 0px 1px 1px 1px rgba(82, 82, 82, 0.26); }
+  background: linear-gradient(90deg, #EEE, #FFFFFF);
+border-radius: 15%;
+box-shadow: 2px 2px 5px #E8E8E8, -2px -2px 5px #EEE;
+text-shadow: 1px 1px 3px black;
+
+ }
 
 .card-height {
   height: auto;
