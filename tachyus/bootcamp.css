@@ -187,6 +187,10 @@ property-image-title {
   margin-right: auto;
   margin-top: 1em; }
 
+  .content-contact input{
+    min-width: 0 !important;
+  }
+
 .costcolor {
   margin-top: 2em;
   color: #444; }
