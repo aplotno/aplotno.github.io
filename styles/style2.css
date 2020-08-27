@@ -8,12 +8,8 @@ background-image: url('/images/hero-pdca.png');
 background-image: url('/images/hero-waterflood.png');
 }
 #header-bootcamp {
-background-image: url('../images/hero-bootcamp.png');
-}
-#header-bootcamp2 {
 background-image: url('../images/hero-bootcamp2.png');
 }
-
 h2.formtext {
 	text-align: center;
 	padding-top: 1.5rem;
@@ -27,9 +23,6 @@ btn {
 
 }
 
-form {
-   
-}
 
 formorig {
    text-align: center;
@@ -188,6 +181,31 @@ font-family: 'Google Sans',Roboto,Arial,sans-serif;
 .freebirdFormviewerComponentsQuestionBaseTitle {
     font-weight: 600 !important;
     }
+
+.freebirdFormviewerViewCenteredContent{
+    width: 100% !important;
+}
+
+.appsMaterialWizButtonPaperbuttonContent{
+    background-color: #fbb040 !important;
+
+}
+.freebirdThemedRadio .isChecked:not(.isDisabled) .exportOuterCircle {
+    
+    border-color: #fbb040 !important;
+}
+
+.exportFocusUnderline{
+    background-color: #fbb040 !important;
+    
+}
+
+  
+
+.appsMaterialWizToggleRadiogroupEl.isChecked .appsMaterialWizToggleRadiogroupOnRadio{
+    background-color: #fbb040 !important;
+    border-color: #fbb040 !important;
+}
 
 #product2 h2 {
     background: linear-gradient(to right, #0199f1 0%, #a0d00f 100%);

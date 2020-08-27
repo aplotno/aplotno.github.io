@@ -1,0 +1,123 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+   .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding-bottom: 2em;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 4px 4px #fbb040;
+  box-shadow: 0px 0px 3px #fbb040;
+  border-radius: 16px;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
+input.radiobutton {
+  width: auto !important;
+  background-color: #fbb040 !important;
+  border-color: #fbb040 !important;
+}
+
+input.otherresponse{
+  width: auto !important;
+}
+
+.content-contact form {
+  font-size: 0.75rem;
+  margin-top: 60px;
+  line-height: 2em;
+  color: gray;
+}
+
+
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+  
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background: rgb(240,172,10);
+  background: -moz-linear-gradient(0deg, rgba(240,172,10,1) 0%, rgba(253,202,45,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(240,172,10,1) 0%, rgba(253,202,45,1) 100%);
+  background: linear-gradient(0deg, rgba(240,172,10,1) 0%, rgba(253,202,45,1) 100%);
+  -webkit-box-shadow: 0px 0px 2px #666;
+  box-shadow: 0px 0px 2px #666;
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid ridge white;
+  
+}
+
+
+
+  button {
+    color: white;
+    background-color: #fbb040;
+    padding: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 3px #666;
+  box-shadow: 1px 1px 3px #666;
+    }
+
+    button:hover{
+      box-shadow: none;
+      -webkit-box-shadow: none;
+    }
