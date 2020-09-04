@@ -231,5 +231,10 @@ property-image-title {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; 
       width: 100%;}
+
+      .spacer3{
+        padding-bottom: 1em;
+        padding-top: 1em;
+      }   
       
  }
