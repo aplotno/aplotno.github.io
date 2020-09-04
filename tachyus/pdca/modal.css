@@ -147,3 +147,15 @@ input[type='radio']:checked:after {
       width: 100%;
       height: 100%;
   }
+
+  @media all and (max-width: 1090px) {
+            
+    .modal-content {
+      margin: 25% auto;
+   } }
+  
+   @media (orientation: landscape) {
+            
+    .modal-content {
+      margin: 5% auto !important;
+   } }
