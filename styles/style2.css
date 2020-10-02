@@ -10,6 +10,10 @@ background-image: url('/images/hero-waterflood.png');
 #header-bootcamp {
 background-image: url('../images/hero-bootcamp2.png');
 }
+#header-surface {
+    background-image: url('/images/surfacebackallocation-hero.png');
+    }
+
 h2.formtext {
 	text-align: center;
 	padding-top: 1.5rem;

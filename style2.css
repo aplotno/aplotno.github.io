@@ -7,9 +7,11 @@ background-image: url('/images/hero-pdca.png');
 #header-waterflood {
 background-image: url('/images/hero-waterflood.png');
 }
-
+#header-bootcamp {
+background-image: url('../images/hero-bootcamp2.png');
+}
 #header-surface {
-    background-image: url('tachyus\styles\surfacebackallocation-hero.png');
+    background-image: url('../images/hero-surfacebackallocation.png');
     }
 
 h2.formtext {
@@ -25,9 +27,6 @@ btn {
 
 }
 
-form {
-   
-}
 
 formorig {
    text-align: center;
@@ -187,6 +186,31 @@ font-family: 'Google Sans',Roboto,Arial,sans-serif;
     font-weight: 600 !important;
     }
 
+.freebirdFormviewerViewCenteredContent{
+    width: 100% !important;
+}
+
+.appsMaterialWizButtonPaperbuttonContent{
+    background-color: #fbb040 !important;
+
+}
+.freebirdThemedRadio .isChecked:not(.isDisabled) .exportOuterCircle {
+    
+    border-color: #fbb040 !important;
+}
+
+.exportFocusUnderline{
+    background-color: #fbb040 !important;
+    
+}
+
+  
+
+.appsMaterialWizToggleRadiogroupEl.isChecked .appsMaterialWizToggleRadiogroupOnRadio{
+    background-color: #fbb040 !important;
+    border-color: #fbb040 !important;
+}
+
 #product2 h2 {
     background: linear-gradient(to right, #0199f1 0%, #a0d00f 100%);
     -webkit-background-clip: text;
@@ -194,6 +218,23 @@ font-family: 'Google Sans',Roboto,Arial,sans-serif;
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     padding: 10px 0px 50px 0;
+}
+
+.content-product{
+    margin-top: 75px !important;
+    margin-bottom: 0px;;
+}
+
+#cards {
+    align-content: center;
+    align-items: center;
+    float: none;
+    
+}
+
+#test {
+    align-self: flex-end;
+    top: 10%;
 }
 
 @media only screen and (min-width: 700px) {
