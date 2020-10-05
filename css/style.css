@@ -1,0 +1,94 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body{
+  background-image: url('../images/Home.gif');
+  background-repeat: no-repeat;
+  background-position: 26em 3em;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.logo-header{
+ display: none;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  .logo-header{
+    display: block;
+   }
+
+  body{background-position: -6em 3em;}
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  body{background-position: -10em 3em;}
+  .logo-header{
+    display: block;
+   }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.logo-image{
+  background-image: url('../images/Desktop5.png');
+ height:70px;
+ background-size: cover;
+}
+
+.logo-image:hover{
+  background-image: url('../images/Desktop4.png');
+}
+
+
+.logo-image{
+  background-image: url('../images/Desktop5.png');
+ height:70px;
+ background-size: cover;
+}
