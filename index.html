@@ -3,11 +3,11 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Ale Plotno UX / UI</title>
+  <title>Parallax Template - Materialize</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="node_modules\materialize-css\dist\css\materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
@@ -178,14 +178,17 @@
   <script>
       
   window.setTimeout(() => {
-    var toast1 = M.toast({html: 'Hola! / Hi!', displayLength:'3000'});
-  }, 5500);
+    var toast1 = M.toast({html: 'Hola! / Hi!', displayLength:'2500'});
+  }, 7500);
    var toast2 = window.setTimeout(() => {
-    M.toast({html: 'Mi nombre es Ale! / My name is Ale!', displayLength:'3000'});
-  }, 8500);
+    M.toast({html: 'Mi nombre es Ale! / My name is Ale!', displayLength:'2500'});
+  }, 9000);
   var toast3 = window.setTimeout(() => {
-    M.toast({html: 'Soy un diseñador UX/UI / I´m a UX / UI designer', displayLength:'3000'});
+    M.toast({html: 'Soy un diseñador UX/UI / I´m a UX / UI designer', displayLength:'2500'});
   }, 11500);
+    var toast4 = window.setTimeout(() => {
+    M.toast({html: 'Gracias por su visita! / Thanks for visiting!', displayLength:'2500'});
+  }, 13500);
 
   </script>
    
