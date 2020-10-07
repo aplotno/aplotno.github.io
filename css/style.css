@@ -6,10 +6,9 @@
  * Made By MaterializeCSS.com
  */
 
-body{
-  background-image: url('../images/Homev2.gif');
-  background-repeat: no-repeat;
-  background-position: 26em 3em;
+.imagen-fondo{
+  margin-left: 35%;
+  margin-top: 5%;
 }
 
 nav ul a,
@@ -48,7 +47,8 @@ p {
     display: block;
    }
 
-  body{background-position: -6em 3em;}
+.imagen-fondo{width: 100%;
+margin: auto;}
 
   #index-banner .section {
     top: 10%;
@@ -59,7 +59,9 @@ p {
   #index-banner .section {
     top: 0;
   }
-  body{background-position: -10em 3em;}
+  .imagen-fondo{width:99%; 
+    margin: auto;
+  }
   .logo-header{
     display: block;
    }
@@ -77,18 +79,12 @@ footer.page-footer {
 }
 
 .logo-image{
-  background-image: url('../images/Desktop5.png');
+  background-image: url('../images/Desktop4.png');
  height:70px;
  background-size: cover;
 }
 
 .logo-image:hover{
-  background-image: url('../images/Desktop4.png');
-}
-
-
-.logo-image{
   background-image: url('../images/Desktop5.png');
- height:70px;
- background-size: cover;
 }
+
