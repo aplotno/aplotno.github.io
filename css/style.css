@@ -9,6 +9,12 @@ body{
   margin-top: 5%;
 }
 
+.imagen-fondo2{
+  margin-left: 35%;
+  margin-top: 5%;
+  width: 20%;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
