@@ -1,0 +1,72 @@
+<svg id="efPa65DNQqe1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 200 130" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <style>
+        <![CDATA[
+        #confetti2 {
+            animation: animation1 10000ms linear 1 normal forwards
+        }
+
+        @keyframes animation1 {
+            0% {
+                transform: translate(15.600227px, -1.593894px) rotate(0);
+                opacity: 1;
+                animation-timing-function: cubic-bezier(0.225000, 0.710000, 0.845000, 0.985000);
+            }
+
+
+            100% {
+                opacity: 0;
+                transform: translate(200.850336px, 106.266404px) rotate(32.735459deg);
+            }
+        }
+        #confetti3 {
+            animation: animation2 8000ms linear 1 normal forwards
+        }
+
+        @keyframes animation2 {
+            0% {
+                transform: translate(15.600227px, -1.593894px) rotate(0);
+                opacity: 1;
+                animation-timing-function: cubic-bezier(0.225000, 0.710000, 0.845000, 0.985000);
+            }
+
+
+            100% {
+                opacity: 0;
+                transform: translate(200.850336px, 16.266404px) rotate(32.735459deg);
+            }
+        }
+
+        
+
+        ]]>
+    </style>
+    <defs>
+        <clipPath id="id3">
+            <rect id="id4" width="280" height="106.110000" rx="0" ry="0" stroke="none" stroke-width="1" />
+        </clipPath>
+        <clipPath id="id73">
+            <rect id="id75" width="28" height="100" rx="0" ry="0" stroke="none" stroke-width="1" />
+        </clipPath>
+    </defs>
+    <g id="confetti2">
+        <g id="confetti1">
+            <path id="id5"
+                d="M14.597913,-13.949971L14.499681,-10.413623Q15.580231,-10.315391,15.678463,-10.315391Q15.776695,-10.315391,16.169623,-14.048203L14.597913,-13.949971Z"
+                transform="scale(1,0.585996) translate(-19.547447,8.808788)" fill="rgb(49,108,227)"
+                stroke="rgb(255,255,255)" stroke-width="0.400000" />
+        </g>
+    </g>
+
+    </style>
+        
+    <g id="confetti3">
+        <g id="confetti4">
+            <path id="id6"
+                d="M14.597913,-13.949971L14.499681,-10.413623Q15.580231,-10.315391,15.678463,-10.315391Q15.776695,-10.315391,16.169623,-14.048203L14.597913,-13.949971Z"
+                transform="scale(1,0.585996) translate(-19.547447,8.808788)" fill="rgb(49,108,227)"
+                stroke="rgb(255,255,255)" stroke-width="0.400000" />
+        </g>
+    </g>
+</svg>
+
